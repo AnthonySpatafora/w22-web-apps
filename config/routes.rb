@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  tacos
+  resources :tacos
+  resources :dice
 end
